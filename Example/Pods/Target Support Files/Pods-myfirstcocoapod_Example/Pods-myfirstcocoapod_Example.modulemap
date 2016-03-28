@@ -1,0 +1,6 @@
+framework module Pods_myfirstcocoapod_Example {
+  umbrella header "Pods-myfirstcocoapod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

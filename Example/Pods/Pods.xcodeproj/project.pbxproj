@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1776F349FF9DA86CA9ACB0D7404F4498 /* myfirstcocoapod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B032CB3870F3F8F4F988FABD7B75966C /* myfirstcocoapod-dummy.m */; };
-		18A6E9269CC717EBB032CFE0D4DA41F9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F22C6A942795A6483AA3C15B0E2883 /* ReplaceMe.swift */; };
 		23B760FC298E3F818474C249D5FCA5F3 /* Pods-myfirstcocoapod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F287C3050DBFB3ACE14BDE7CEBA14B3 /* Pods-myfirstcocoapod_Example-dummy.m */; };
 		4AB13B550F6790C31B48E02F18B681DB /* Pods-myfirstcocoapod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF75CC01DB1F1514FD214DDAB8C54AE /* Pods-myfirstcocoapod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		835AAF3D7D8C395473D69E1B14AA8148 /* myfirstcocoapod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AB62C91E71581285D15EA737FC9629 /* myfirstcocoapod-dummy.m */; };
 		84A2F3A4696620889F404659303B3980 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C20DEDEA9E7503923B0C90D7A0C17E0 /* Foundation.framework */; };
 		A2A4414FF0C6D9D7A1D36041D86914F0 /* Pods-myfirstcocoapod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 829A42F3DEE75FA565AFF0E633112B9C /* Pods-myfirstcocoapod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A302BD1DF77DBA458910D910EB88A82A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C20DEDEA9E7503923B0C90D7A0C17E0 /* Foundation.framework */; };
 		A7F8FD27E0B9E1E0560E6EE4E6C8CC8C /* Pods-myfirstcocoapod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FD9017BF4F2B8656E300B4EBF06201 /* Pods-myfirstcocoapod_Tests-dummy.m */; };
+		BF775236F0D643AA90741FD6649E5BC0 /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF4EE11B4F3DBEBD1A88BFD2265D572 /* BlinkingLabel.swift */; };
 		C59457C44EC17A2D15AF29A82513B8E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C20DEDEA9E7503923B0C90D7A0C17E0 /* Foundation.framework */; };
 		C69C851E651F790E392796605A16DABC /* myfirstcocoapod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5A1FF5282FC22DF6A64173F268BEE4 /* myfirstcocoapod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC883F1310127E51A53FEAD0D9DE75AB /* myfirstcocoapod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 23BA7161D650685B565EBDDE00B5C47A /* myfirstcocoapod.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		061B0480D5242CFC47EB94E5F027BC22 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C6D3DA37732924233DC1952FB6E65A9F;
-			remoteInfo = myfirstcocoapod;
-		};
-		0E4A40C99D0E7D5EB9DEB8E8B4C57DAE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C6D3DA37732924233DC1952FB6E65A9F;
-			remoteInfo = myfirstcocoapod;
-		};
-		32B5A870246788BCD42ECF3A8305033C /* PBXContainerItemProxy */ = {
+		06F60A784CBC5172D024454CEF233190 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CEDB222A2BA03B97F4E03E80C73FDF1C;
 			remoteInfo = "myfirstcocoapod-myfirstcocoapod";
+		};
+		30D282030A2ED6A4203373081567D216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6D3DA37732924233DC1952FB6E65A9F;
+			remoteInfo = myfirstcocoapod;
+		};
+		C2C71EE5D1B0F5165BB63B766DC63C0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6D3DA37732924233DC1952FB6E65A9F;
+			remoteInfo = myfirstcocoapod;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -57,6 +57,7 @@
 		2A5A1FF5282FC22DF6A64173F268BEE4 /* myfirstcocoapod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "myfirstcocoapod-umbrella.h"; sourceTree = "<group>"; };
 		2AD99CC303274E2A89D85A23F532774B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38AC59617B45C366D3454D9BAB4064C7 /* Pods-myfirstcocoapod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-myfirstcocoapod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DF4EE11B4F3DBEBD1A88BFD2265D572 /* BlinkingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BlinkingLabel.swift; sourceTree = "<group>"; };
 		4F287C3050DBFB3ACE14BDE7CEBA14B3 /* Pods-myfirstcocoapod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-myfirstcocoapod_Example-dummy.m"; sourceTree = "<group>"; };
 		5493BC87099DF3E0C1EBFB2091E5EB84 /* Pods-myfirstcocoapod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myfirstcocoapod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5AF75CC01DB1F1514FD214DDAB8C54AE /* Pods-myfirstcocoapod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-myfirstcocoapod_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -69,12 +70,11 @@
 		83491AE421E6C12038B65C131DDA4F56 /* myfirstcocoapod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = myfirstcocoapod.xcconfig; sourceTree = "<group>"; };
 		8E95F64E152F4576818C13128560DD64 /* Pods-myfirstcocoapod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-myfirstcocoapod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9B38B4660E4D427752C64F64D628E140 /* myfirstcocoapod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = myfirstcocoapod.modulemap; sourceTree = "<group>"; };
-		B032CB3870F3F8F4F988FABD7B75966C /* myfirstcocoapod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "myfirstcocoapod-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BEA679A5583F088A0105C6A2E1A4F815 /* Pods-myfirstcocoapod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myfirstcocoapod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D3F22C6A942795A6483AA3C15B0E2883 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		DB841FA267B8857E2DAFAD171EB5D34F /* Pods-myfirstcocoapod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myfirstcocoapod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E4050CC66CBA8F0A065C2657A5DADF4A /* Pods-myfirstcocoapod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myfirstcocoapod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E5AB62C91E71581285D15EA737FC9629 /* myfirstcocoapod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "myfirstcocoapod-dummy.m"; sourceTree = "<group>"; };
 		EBF6D304DC7E9EF9720D1AA35D2D381A /* myfirstcocoapod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = myfirstcocoapod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC84C2B0BDEFA6EA635BDA3B6EF9EDE /* Pods-myfirstcocoapod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myfirstcocoapod_Example-resources.sh"; sourceTree = "<group>"; };
 		F1974DEF8C1AFD90D6153C2E65AB2874 /* Pods-myfirstcocoapod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myfirstcocoapod_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 				9B38B4660E4D427752C64F64D628E140 /* myfirstcocoapod.modulemap */,
 				83491AE421E6C12038B65C131DDA4F56 /* myfirstcocoapod.xcconfig */,
 				7B084B0850C5AB0BC901F6741ECC0045 /* myfirstcocoapod-Private.xcconfig */,
-				B032CB3870F3F8F4F988FABD7B75966C /* myfirstcocoapod-dummy.m */,
+				E5AB62C91E71581285D15EA737FC9629 /* myfirstcocoapod-dummy.m */,
 				23970FE0C6CCB0B493A3505794960C80 /* myfirstcocoapod-prefix.pch */,
 				2A5A1FF5282FC22DF6A64173F268BEE4 /* myfirstcocoapod-umbrella.h */,
 			);
@@ -167,6 +167,14 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		93636BEB1CC43EDC5F1E570A086D339E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4DF4EE11B4F3DBEBD1A88BFD2265D572 /* BlinkingLabel.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		A2A28DE2F90AECD36DDDC9855FDA35FB /* Pods-myfirstcocoapod_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,14 +191,6 @@
 			);
 			name = "Pods-myfirstcocoapod_Tests";
 			path = "Target Support Files/Pods-myfirstcocoapod_Tests";
-			sourceTree = "<group>";
-		};
-		A77F7CE9D1B995ACE4888F187DA1FFDC /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D3F22C6A942795A6483AA3C15B0E2883 /* ReplaceMe.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		B8C37D5EE6B62C1E4CA88390FC29A954 /* myfirstcocoapod */ = {
@@ -214,7 +214,7 @@
 		C220FF4FC6AEC46890C677ED67CFBBDF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A77F7CE9D1B995ACE4888F187DA1FFDC /* Classes */,
+				93636BEB1CC43EDC5F1E570A086D339E /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -289,7 +289,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				06EBC3737CC76D3A03524FA1AA03359E /* PBXTargetDependency */,
+				E1821F459ADEE9279A0EE4279C3C5E09 /* PBXTargetDependency */,
 			);
 			name = "Pods-myfirstcocoapod_Tests";
 			productName = "Pods-myfirstcocoapod_Tests";
@@ -300,7 +300,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E26797E90A6128AA52E557069E2D23E9 /* Build configuration list for PBXNativeTarget "myfirstcocoapod" */;
 			buildPhases = (
-				9DA0252DC0502FE5B5D8A486B04C7EAD /* Sources */,
+				B4C13A2A9E8700A22D84234546BF17FE /* Sources */,
 				F2FE102D1107252FEDC00D313B6DADFC /* Frameworks */,
 				C950548B26B9EE585611F716A988792A /* Resources */,
 				7E036691FDB63388FA6A562C7D871F87 /* Headers */,
@@ -308,7 +308,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9781480A0DE4918D4DBC92A9980D8916 /* PBXTargetDependency */,
+				2B8DEA3381A93ED044345FA31EBAE5B3 /* PBXTargetDependency */,
 			);
 			name = myfirstcocoapod;
 			productName = myfirstcocoapod;
@@ -326,7 +326,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A07CF819A265859A2B12FA6C57707ED6 /* PBXTargetDependency */,
+				73061CD91BC00DEFB84A8D5F075262D9 /* PBXTargetDependency */,
 			);
 			name = "Pods-myfirstcocoapod_Example";
 			productName = "Pods-myfirstcocoapod_Example";
@@ -413,12 +413,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DA0252DC0502FE5B5D8A486B04C7EAD /* Sources */ = {
+		B4C13A2A9E8700A22D84234546BF17FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A6E9269CC717EBB032CFE0D4DA41F9 /* ReplaceMe.swift in Sources */,
-				1776F349FF9DA86CA9ACB0D7404F4498 /* myfirstcocoapod-dummy.m in Sources */,
+				BF775236F0D643AA90741FD6649E5BC0 /* BlinkingLabel.swift in Sources */,
+				835AAF3D7D8C395473D69E1B14AA8148 /* myfirstcocoapod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,23 +433,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		06EBC3737CC76D3A03524FA1AA03359E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = myfirstcocoapod;
-			target = C6D3DA37732924233DC1952FB6E65A9F /* myfirstcocoapod */;
-			targetProxy = 0E4A40C99D0E7D5EB9DEB8E8B4C57DAE /* PBXContainerItemProxy */;
-		};
-		9781480A0DE4918D4DBC92A9980D8916 /* PBXTargetDependency */ = {
+		2B8DEA3381A93ED044345FA31EBAE5B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "myfirstcocoapod-myfirstcocoapod";
 			target = CEDB222A2BA03B97F4E03E80C73FDF1C /* myfirstcocoapod-myfirstcocoapod */;
-			targetProxy = 32B5A870246788BCD42ECF3A8305033C /* PBXContainerItemProxy */;
+			targetProxy = 06F60A784CBC5172D024454CEF233190 /* PBXContainerItemProxy */;
 		};
-		A07CF819A265859A2B12FA6C57707ED6 /* PBXTargetDependency */ = {
+		73061CD91BC00DEFB84A8D5F075262D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = myfirstcocoapod;
 			target = C6D3DA37732924233DC1952FB6E65A9F /* myfirstcocoapod */;
-			targetProxy = 061B0480D5242CFC47EB94E5F027BC22 /* PBXContainerItemProxy */;
+			targetProxy = C2C71EE5D1B0F5165BB63B766DC63C0A /* PBXContainerItemProxy */;
+		};
+		E1821F459ADEE9279A0EE4279C3C5E09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = myfirstcocoapod;
+			target = C6D3DA37732924233DC1952FB6E65A9F /* myfirstcocoapod */;
+			targetProxy = 30D282030A2ED6A4203373081567D216 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
